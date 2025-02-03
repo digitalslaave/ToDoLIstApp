@@ -1,6 +1,6 @@
 package ToDoList;
 
-// Класс Task наследует Item
+
 class Task extends Item {
     private boolean isCompleted;
 

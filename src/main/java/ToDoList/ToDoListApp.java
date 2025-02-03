@@ -18,7 +18,6 @@ class ToDoListApp {
 
     public void run() {
         System.out.println("=== To-Do List Terminal Application ===");
-        // Регистрация или вход
         currentUser = loginOrRegister();
         if (currentUser == null) {
             System.out.println("Failed to authenticate. Exiting.");

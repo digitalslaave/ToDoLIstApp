@@ -1,6 +1,6 @@
 package ToDoList;
 
-// Базовый класс для элементов списка
+
 abstract class Item {
     private int id;
     private String description;
@@ -22,6 +22,5 @@ abstract class Item {
         this.description = description;
     }
 
-    // Абстрактный метод для отображения элемента
     public abstract String toString();
 }
